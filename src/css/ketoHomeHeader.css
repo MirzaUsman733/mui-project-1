@@ -1,0 +1,20 @@
+.ketoHomeHeader{
+    height: 70vh;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("https://cdn.ruled.me/wp-content/uploads/2013/11/keto-diet-calculator-banner.jpg"); */
+    /* background-repeat: no-repeat;
+    background-position: cover; */
+    background-color: #33B5E5;
+    background-size: 100vw;
+}
+.txt-mid{
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.ketonicHeaderTxt{
+    font-size: 50px;
+    font-weight: bold;
+}

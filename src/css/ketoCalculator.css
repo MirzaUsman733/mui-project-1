@@ -1,0 +1,16 @@
+.ketoCalculatorFirstDiv{
+    margin-top: 100px;
+}
+.ketoParagraph{
+    width: 60%;
+}
+@media screen and (max-width: 568px) {
+    .ketoParagraph{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .ketoParagraph{
+        width: 90%;
+    }
+}
