@@ -36,7 +36,7 @@ const SurplusInput = ({ surplus, setSurplus,scrollToSurplusDetail }) => {
       label="Surplus"
       type="number"
       color="primary"
-      InputLabelProps={{
+      inputlabelprops={{
         shrink: true,
       }}
       InputProps={{

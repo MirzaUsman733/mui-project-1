@@ -77,7 +77,7 @@ const GenderAgeComponent = ({
             label="Age"
             type="number"
             color="info"
-            InputLabelProps={{
+            inputlabelprops={{
               shrink: true,
             }}
             onChange={(e) => setAge(e.target.value)}

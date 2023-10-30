@@ -35,7 +35,7 @@ const HeightWeightComponent = ({
           label="Weight"
           type="number"
           color="warning"
-          InputLabelProps={{
+          inputlabelprops={{
             shrink: true,
           }}
           onChange={(e) => setWeight(e.target.value)}
@@ -61,7 +61,7 @@ const HeightWeightComponent = ({
             label="Height (cm)"
             type="number"
             color="error"
-            InputLabelProps={{
+            inputlabelprops={{
               shrink: true,
             }}
             onChange={(e) => setHeight(e.target.value)}
@@ -74,7 +74,7 @@ const HeightWeightComponent = ({
               label="Feet"
               type="number"
               color="error"
-              InputLabelProps={{
+              inputlabelprops={{
                 shrink: true,
               }}
               onChange={(e) => setHeightFeet(e.target.value)}
@@ -85,7 +85,7 @@ const HeightWeightComponent = ({
               label="Inches"
               type="number"
               color="error"
-              InputLabelProps={{
+              inputlabelprops={{
                 shrink: true,
               }}
               onChange={(e) => setHeightInches(e.target.value)}

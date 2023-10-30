@@ -10,6 +10,7 @@ import {
 import InfoIcon from '@mui/icons-material/Info';
 import {Link} from 'react-router-dom'
 const BodyTypeComponent = ({
+  bodyImage,
   bustSize,
   setBustSize,
   waistSize,
@@ -59,7 +60,7 @@ return (
             label="Bust Size"
             type="number"
             color="success"
-            InputLabelProps={{
+            inputlabelprops={{
               shrink: true,
             }}
             onChange={(e) => setBustSize(e.target.value)}
@@ -72,7 +73,7 @@ return (
             label="Waist Size"
             type="number"
             color="success"
-            InputLabelProps={{
+            inputlabelprops={{
               shrink: true,
             }}
             onChange={(e) => setWaistSize(e.target.value)}
@@ -85,7 +86,7 @@ return (
             label="High Hip Size"
             type="number"
             color="success"
-            InputLabelProps={{
+            inputlabelprops={{
               shrink: true,
             }}
             onChange={(e) => setHighHipSize(e.target.value)}
@@ -98,7 +99,7 @@ return (
             label="Hip Size"
             type="number"
             color="success"
-            InputLabelProps={{
+            inputlabelprops={{
               shrink: true,
             }}
             onChange={(e) => setHipSize(e.target.value)}
@@ -123,6 +124,7 @@ return (
       <div>
         {bodyShape && <p>{bodyShape}</p>}
         {whr && <p>{whr}</p>}
+        {bodyImage && <img src={bodyImage} alt='Body Type'/>}
       </div>
     </div>
   </div>
